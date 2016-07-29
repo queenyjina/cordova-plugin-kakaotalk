@@ -1,6 +1,6 @@
 Cordova Plugin KakaoTalk (with CustomURL scheme)
-
 ========================
+
 This plugin is modified by combining the two other plguins
 
 - https://github.com/taejaehan/KakaoTalkCordovaPlugin
@@ -8,6 +8,8 @@ This plugin is modified by combining the two other plguins
 Make sure you've registered your Facebook app with Kakao and have an KAKAO_APP_KEY
 
 - https://developers.kakao.com
+
+
 
 Cordova Install Note:
 ========================
@@ -48,6 +50,8 @@ cordova plugin add https://github.com/queenyjina/cordova-kakaotalk.git --variabl
 
 open platforms/ios/*.xcodeproj
         Build Settings > Linking > Other Linker Flags > add '-all_load'
+
+
 
 How to use the plugin
 ========================
