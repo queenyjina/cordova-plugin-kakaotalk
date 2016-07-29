@@ -1,4 +1,4 @@
-package com.htj.plugin.kakao;
+package com.plugin.kakao;
 
 import android.app.Activity;
 import android.content.Context;
