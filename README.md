@@ -1,6 +1,6 @@
-Cordova Plugin KakaoTalk
-========================
+Cordova Plugin KakaoTalk (with CustomURL scheme)
 
+========================
 This plugin is modified by combining the two other plguins
 
 - https://github.com/taejaehan/KakaoTalkCordovaPlugin
@@ -22,7 +22,6 @@ cordova plugin add https://github.com/queenyjina/cordova-kakaotalk.git --variabl
 * Add following code to appDelegate
 
 ```
-
 #import <KakaoOpenSDK/KakaoOpenSDK.h>
 #import <Cordova/CDVPlugin.h>
 
@@ -63,11 +62,11 @@ Login using the `.login` method:
 ```
 KakaoTalk.login(
     function (result) {
-      console.log('Successful login!');
+      console.log('Success login!');
       console.log(result);
     },
     function (message) {
-      console.log('Error logging in');
+      console.log('Error login!');
       console.log(message);
     }
 );
@@ -90,9 +89,9 @@ Logout using the `.logout` method:
 ```
 KakaoTalk.logout(
 	function() {
-		console.log('Successful logout!');
+		console.log('Success logout!');
 	}, function() {
-		console.log('Error logging out');
+		console.log('Error logout!');
 	}
 );
 ```
@@ -104,11 +103,11 @@ session check and newer infomation using the `.login` method:
 ```
 KakaoTalk.session(
     function (result) {
-      console.log('Successful session!');
+      console.log('Success session!');
       console.log(result);
     },
     function (message) {
-      console.log('Error session in');
+      console.log('Error session!');
       console.log(message);
     }
 );
